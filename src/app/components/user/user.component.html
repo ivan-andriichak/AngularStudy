@@ -1,0 +1,14 @@
+<div>
+    <div>id:{{ user.id }}</div>
+    <div>name:{{ user.name }}</div>
+    <div>username:{{ user.username }}</div>
+    <div>email:{{ user.email }}</div>
+    <div>
+        <div>address:{{ user.address.street }}</div>
+    </div>
+    <div>suite:{{ user.address.suite }}</div>
+    <br>
+    <button (click)="getDetails()">Get details</button>
+    <button (click)="getPosts()">Get posts</button>
+    <hr>
+</div>
